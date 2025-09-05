@@ -5,4 +5,4 @@ RUN npm install
 RUN cd server && npm install
 COPY . .
 EXPOSE 5000
-CMD ["node", "server/index.js"]
+CMD ["node", "server.js"]
